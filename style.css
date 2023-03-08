@@ -1,0 +1,54 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #eee;
+}
+
+table td:nth-child(2),
+table td:nth-child(4) {
+  text-align: right;
+}
+
+table td:nth-child(3) {
+  text-align: center;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.minus-btn,
+.plus-btn {
+  font-size: 1.2rem;
+}
+
+.qty-input {
+  width: 3rem;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.delete-btn {
+  color: red;
+}
+
+.like-btn {
+  color: gray;
+}
+
+.like-btn.liked {
+  color: red;
+}

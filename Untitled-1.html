@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <thead>
+          <tr>
+            <th>Produit</th>
+            <th>Prix unitaire</th>
+            <th>Quantité</th>
+            <th>Prix total</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Produit 1</td>
+            <td>10,00 €</td>
+            <td>
+              <button class="minus-btn">-</button>
+              <input type="number" class="qty-input" value="1">
+              <button class="plus-btn">+</button>
+            </td>
+            <td>10,00 €</td>
+            <td>
+              <button class="delete-btn">Supprimer</button>
+              <button class="like-btn">&#10084</button>
+            </td>
+          </tr>
+          <tr>
+            <td>Produit 2</td>
+            <td>20,00 €</td>
+            <td>
+              <button class="minus-btn">-</button>
+              <input type="number" class="qty-input" value="1">
+              <button class="plus-btn">+</button>
+            </td>
+            <td>20,00 €</td>
+            <td>
+              <button class="delete-btn">Supprimer</button>
+              <button class="like-btn"> &#10084</button>
+            </td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3"></td>
+            <td id="total-price">30,00 €</td>
+            <td></td>
+          </tr>
+        </tfoot>
+      </table>
+<script src="script.js"></script>      
+</body>
+</html>
